@@ -10,7 +10,7 @@ export default function Home({ allPostsData }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center mt-64">
+      <main style="background-image: url('https://source.unsplash.com/collection/4964686/');" className="flex flex-col items-center mt-64">
         <h1 className="text-6xl">MLH Guilds!</h1>
         <ul className="mt-8 text-xl">
           {allPostsData.map(({ id, author, title }) => (
